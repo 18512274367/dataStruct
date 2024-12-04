@@ -28,6 +28,7 @@ public:
     int delFromTail();
     void delNode(int);
     bool isSingleList(int) const;
+    void print() const;
 
 private:
     Node *head,*tail;
